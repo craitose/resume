@@ -176,6 +176,10 @@ padding: 7% 5%;
 }
 
 /* Bot Code */
+.openChatBtn
+{
+  position:relative;
+}
 {
       box-sizing: border-box;
 }
