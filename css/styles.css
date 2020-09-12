@@ -1,0 +1,263 @@
+body{
+  font-family: "Montserrat";
+}
+#title
+{
+  background-color: #A480CF;
+  color: #fff;
+
+}
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size:  3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Monsterrat-Bold";
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* navigation Bar*/
+.navbar-brand{
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0rem;
+}
+.navitem
+{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Monserrat-light";
+}
+.title-image{
+  width: 38%;
+transform: rotate(0deg);
+position: absolute;
+right:65px;
+background-size: cover;
+display: block;
+border-radius: 100px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+}
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*features*/
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+.icon{
+  color: #D264B6;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #A480CF;
+}
+/* skillset */
+
+#skillset{
+
+  text-align: center;
+  background-color:  #D264B6;
+  color: #fff;
+  padding: 3% 5%;
+  position:relative;
+
+}
+
+.skillset-image{
+  width: 10%;
+  border-radius: 10%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #D264B6;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* background */
+
+#background{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* Mobile Screen Responsiveness */
+
+@media (max-width: 1028px){
+  #title
+  {
+    text-align: center;
+  }
+
+  .title-image
+  {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*Call To Action*/
+#cta
+{
+  background-color:  #A480CF;
+
+}
+.CallToAction
+{
+   text-align: center;
+   padding: 7% 5%;
+    margin-left: 35%;
+   color: white;
+
+
+}
+
+/* Footer*/
+#footer
+{
+padding: 7% 5%;
+  margin-left: 50px;
+  text-align: center;
+}
+.iconf
+{
+  color: black;
+  margin: 20px 3px;
+}
+
+/* Bot Code */
+{
+      box-sizing: border-box;
+}
+   .openChatBtn {
+      background-color: rgb(123, 28, 179);
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      font-weight: 500;
+      font-size: 18px;
+      cursor: pointer;
+      opacity: 0.8;
+      position: fixed;
+      bottom: 23px;
+      right: 28px;
+      width: 280px;
+   }
+   .openChat {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      right: 15px;
+      border: 3px solid #330066;
+      z-index: 9;
+   }
+   form {
+      max-width: 300px;
+      padding: 1px;
+      height: auto;
+      background-color: white;
+   }
+   form textarea {
+      width: 100%;
+      font-size: 18px;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      font-weight: 500;
+      background: #d5e7ff;
+      color: rgb(0, 0, 0);
+      resize: none;
+      min-height: 200px;
+   }
+   form textarea:focus {
+      background-color: rgb(219, 255, 252);
+      outline: none;
+   }
+   form .btn {
+      background-color: #A480CF;
+      color: white;
+      padding: 16px 20px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 3px;
+      opacity: 0.8;
+   }
+   form .close {
+      background-color: #D264B6;
+      color: white
+      padding: 16px 20px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 1px;
+      opacity: 0.8;
+
+   }
+   form .btn:hover, .openChatBtn:hover {
+      opacity: 1;
+   }
+   .textArea {
+     width: 100%;
+     font-size: 18px;
+     padding: 15px;
+     margin: 5px 0 22px 0;
+     border: none;
+     font-weight: 500;
+     background: #d5e7ff;
+     color: rgb(0, 0, 0);
+     resize: none;
+     min-height: 200px;
+   }
