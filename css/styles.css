@@ -1,5 +1,6 @@
-body{
+html,body{
   font-family: "Montserrat";
+  overflow-x: hidden;
 }
 #title
 {
@@ -143,6 +144,7 @@ border-radius: 100px;
   {
     position: static;
     transform: rotate(0);
+    margin: auto;
   }
 }
 
@@ -150,13 +152,14 @@ border-radius: 100px;
 #cta
 {
   background-color:  #A480CF;
-
+  text-align: center;
+  padding: 7% 5%;
 }
 .CallToAction
 {
    text-align: center;
    padding: 7% 5%;
-    margin-left: 35%;
+    margin:auto;
    color: white;
 
 
