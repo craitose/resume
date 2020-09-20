@@ -222,10 +222,23 @@
         var hello = ["hi","hey","ahoj","howzit","hello"]
         var Meh = ["Can complain but won't :)", "Not too bad", "All Good","Awesome", "Ask me later"]
         var Robot = ["Don't be silly","Beep Bop Beep","Error cannot compute :|","Are you?"]
+        var Day = new Date().getDay();
+        var Daylist = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+        var Weakness = ["Not knowing when to quit/ask for help <br>because I enjoy challenges and keep at 'em until I win but I have since learned that in time sensitive projects, bringing in an expert could save time"]
         var know = {
           "hello" : hello[Math.floor(Math.random()*5)],
           "hi" : hello[Math.floor(Math.random()*5)],
           "how are you?" : Meh[Math.floor(Math.random()*5)],
+          "good morning" : "Good Morning to you",
+          "good afternoon" : "Good Afternoon ",
+          "good evening" : "Good Evening",
+          "what's your name?" : "Call me Craig",
+          "who made you?" : "Craig did and he didn't do a bad job if you ask me",
+          "what day is it today?" : Daylist[Day],
+          "do you work well in teams?" : "I do work well in teams but I am more effecient on my own",
+          "what are your weaknesses?" : Weakness,
+          "what are your strengths?" : "My Appetite for challenges, especially when they are perceived <br>as impossible or uncharted",
+          "who's your boss?" : "Craig",
           "ok" : ":)",
           "what positions are you qualified for?" : "Test Manager, Software Quality Engineer, Web Developer",
           "what test types do you do?" : "Functional, Integration, Regression, Stress",
@@ -238,7 +251,7 @@
           "tell me another" : "The difference between ignorance and apathy is...I don't know and I don't care",
           "do you have the right to live and work in the uk?" : "Yes I do",
           "Notice period" : "30 days",
-          "what languages have you worked with?" : "Java, C#,Powershell, CSS, HMTL",
+          "what languages have you worked with?" : "Java, C#, Powershell, CSS, HMTL",
           "are you a robot?" : Robot[Math.floor(Math.random()*4)]
 
         };
